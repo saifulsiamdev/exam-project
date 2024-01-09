@@ -1,0 +1,99 @@
+/* Hero Section Start */
+.hero-section {
+    background-image: url("../img/hero-image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: #f5f5f5;
+  }
+  
+  .hero-section .col-lg-12 {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+
+  /*Hero Section End*/
+
+  /* Hide the cards by default */
+  .card {
+    display: none;
+}
+
+
+
+  .cards-section {
+    padding: 4rem 0;
+  }
+  
+  .card {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+/* Card Section */
+.cards-section{
+    background-color: #faf8ff;
+}
+
+.card-color{
+    background-color: #faf8ff;
+    border-radius: 10px;
+padding: 20px 10px 20px 10px
+}
+.age-section{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* .submit-button{
+    align-items:   center;
+} */
+.age-input{
+    background-color: #faf8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.age-result{
+    background-color: #faf8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+  /* Footer Start */
+  .footer{
+    background-color: #FAF8FF;
+  }
+
+  .copyright{
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+  }
+
+
+    a .link{
+        text-decoration: none;
+        color: black;
+      }
+  
